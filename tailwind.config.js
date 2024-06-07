@@ -52,6 +52,9 @@ export default {
       fontFamily: {
         sans: ["Plus Jakarta Sans", "sans-serif"],
       },
+      boxShadow: {
+        "2xl": "0px 32px 64px -12px rgba(85, 105, 135, 0.13)",
+      },
     },
   },
   plugins: [],

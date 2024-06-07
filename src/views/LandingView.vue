@@ -1,7 +1,10 @@
 <script setup>
-import Header from "@/components/section/Header.vue";
+import { Header, HowItsWork, Features, Features2 } from "@/utils/section";
 </script>
 
 <template>
   <Header />
+  <HowItsWork />
+  <Features />
+  <Features2 />
 </template>

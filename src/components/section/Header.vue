@@ -1,6 +1,5 @@
 <script setup>
-import Navbar from "@/components/navbar/Navbar.vue";
-import Jumbotron from "@/components/section/Jumbotron.vue";
+import { Navbar, Jumbotron } from "@/utils/section";
 </script>
 
 <template>
