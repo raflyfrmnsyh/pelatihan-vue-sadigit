@@ -5,7 +5,7 @@ import NavBtn from "@/components/navbar/NavBtn.vue";
 </script>
 
 <template>
-  <nav class="py-[24px] px-[150px] flex items-center justify-between">
+  <nav class="py-[24px] flex items-center justify-between">
     <Logo />
     <Links />
     <NavBtn />
