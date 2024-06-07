@@ -596,20 +596,32 @@ video {
   margin-right: 6px;
 }
 
-.mt-\[8px\]{
-  margin-top: 8px;
+.mt-16{
+  margin-top: 4rem;
 }
 
 .mt-\[10px\]{
   margin-top: 10px;
 }
 
-.mt-16{
-  margin-top: 4rem;
-}
-
 .mt-\[2px\]{
   margin-top: 2px;
+}
+
+.mt-\[8px\]{
+  margin-top: 8px;
+}
+
+.mb-\[16px\]{
+  margin-bottom: 16px;
+}
+
+.mb-\[72px\]{
+  margin-bottom: 72px;
+}
+
+.mb-\[74px\]{
+  margin-bottom: 74px;
 }
 
 .flex{
@@ -632,26 +644,6 @@ video {
   height: 4rem;
 }
 
-.h-\[540px\]{
-  height: 540px;
-}
-
-.h-\[320px\]{
-  height: 320px;
-}
-
-.h-\[480px\]{
-  height: 480px;
-}
-
-.h-\[360px\]{
-  height: 360px;
-}
-
-.h-\[340px\]{
-  height: 340px;
-}
-
 .h-fit{
   height: -moz-fit-content;
   height: fit-content;
@@ -669,12 +661,20 @@ video {
   width: 232px;
 }
 
+.w-\[238px\]{
+  width: 238px;
+}
+
 .w-\[295px\]{
   width: 295px;
 }
 
 .w-\[456px\]{
   width: 456px;
+}
+
+.w-\[515px\]{
+  width: 515px;
 }
 
 .w-\[546px\]{
@@ -686,52 +686,16 @@ video {
   width: fit-content;
 }
 
-.w-\[515px\]{
-  width: 515px;
+.w-\[686px\]{
+  width: 686px;
 }
 
-.w-\[238px\]{
-  width: 238px;
+.w-\[498px\]{
+  width: 498px;
 }
 
-.w-\[415px\]{
-  width: 415px;
-}
-
-.w-\[320px\]{
-  width: 320px;
-}
-
-.w-\[480px\]{
-  width: 480px;
-}
-
-.w-\[360px\]{
-  width: 360px;
-}
-
-.w-\[340px\]{
-  width: 340px;
-}
-
-.w-\[280px\]{
-  width: 280px;
-}
-
-.w-\[554px\]{
-  width: 554px;
-}
-
-.w-\[500px\]{
-  width: 500px;
-}
-
-.w-\[420px\]{
-  width: 420px;
-}
-
-.w-\[460px\]{
-  width: 460px;
+.w-\[50\%\]{
+  width: 50%;
 }
 
 .flex-shrink-0{
@@ -746,10 +710,6 @@ video {
   flex-direction: column;
 }
 
-.flex-wrap{
-  flex-wrap: wrap;
-}
-
 .items-center{
   align-items: center;
 }
@@ -762,16 +722,28 @@ video {
   justify-content: space-between;
 }
 
-.gap-40{
-  gap: 10rem;
-}
-
 .gap-\[40px\]{
   gap: 40px;
 }
 
 .gap-\[60px\]{
   gap: 60px;
+}
+
+.gap-\[36px\]{
+  gap: 36px;
+}
+
+.gap-\[18px\]{
+  gap: 18px;
+}
+
+.gap-\[20px\]{
+  gap: 20px;
+}
+
+.gap-\[16px\]{
+  gap: 16px;
 }
 
 .rounded-\[10px\]{
@@ -790,6 +762,15 @@ video {
   border-radius: 9999px;
 }
 
+.border-2{
+  border-width: 2px;
+}
+
+.border-primeblue-primeblue-50{
+  --tw-border-opacity: 1;
+  border-color: rgb(57 100 255 / var(--tw-border-opacity));
+}
+
 .bg-\[\#E9E3FF\]{
   --tw-bg-opacity: 1;
   background-color: rgb(233 227 255 / var(--tw-bg-opacity));
@@ -800,8 +781,26 @@ video {
   background-color: rgb(51 17 219 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#Secondary\/Grey\/200\]{
+  background-color: #Secondary/Grey/200;
+}
+
+.bg-greysecond-greysecond-20{
+  --tw-bg-opacity: 1;
+  background-color: rgb(246 248 253 / var(--tw-bg-opacity));
+}
+
+.bg-primeblue-primeblue-50{
+  --tw-bg-opacity: 1;
+  background-color: rgb(57 100 255 / var(--tw-bg-opacity));
+}
+
 .p-\[120px\]{
   padding: 120px;
+}
+
+.p-8{
+  padding: 2rem;
 }
 
 .px-\[100px\]{
@@ -864,6 +863,11 @@ video {
   padding-bottom: 80px;
 }
 
+.py-\[16px\]{
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
 .pt-\[60px\]{
   padding-top: 60px;
 }
@@ -875,6 +879,11 @@ video {
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-4xl{
@@ -891,18 +900,26 @@ video {
   font-size: 16px;
 }
 
-.text-\[30px\]{
-  font-size: 30px;
-}
-
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-\[18px\]{
+  font-size: 18px;
+}
+
+.text-\[12px\]{
+  font-size: 12px;
+}
+
+.text-\[36px\]{
+  font-size: 36px;
 }
 
 .font-bold{
@@ -919,6 +936,14 @@ video {
 
 .font-normal{
   font-weight: 400;
+}
+
+.font-semibold{
+  font-weight: 600;
+}
+
+.leading-10{
+  line-height: 2.5rem;
 }
 
 .leading-\[20px\]{
@@ -945,8 +970,12 @@ video {
   line-height: 72px;
 }
 
-.leading-10{
-  line-height: 2.5rem;
+.leading-\[28px\]{
+  line-height: 28px;
+}
+
+.leading-\[18px\]{
+  line-height: 18px;
 }
 
 .text-darksecond-darksecond-90{
@@ -972,6 +1001,11 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-primeblue-primeblue-50{
+  --tw-text-opacity: 1;
+  color: rgb(57 100 255 / var(--tw-text-opacity));
 }
 
 .opacity-80{

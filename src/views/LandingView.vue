@@ -1,5 +1,12 @@
 <script setup>
-import { Header, HowItsWork, Features, Features2 } from "@/utils/section";
+import {
+  Header,
+  HowItsWork,
+  Features,
+  Features2,
+  Testimoni,
+  CallToAction,
+} from "@/utils/section";
 </script>
 
 <template>
@@ -7,4 +14,6 @@ import { Header, HowItsWork, Features, Features2 } from "@/utils/section";
   <HowItsWork />
   <Features />
   <Features2 />
+  <Testimoni />
+  <CallToAction />
 </template>
