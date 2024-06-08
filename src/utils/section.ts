@@ -6,3 +6,6 @@ export { default as Features } from "@/components/section/Features.vue";
 export { default as Features2 } from "@/components/section/Features2.vue";
 export { default as Testimoni } from "@/components/section/Testimoni.vue";
 export { default as CallToAction } from "@/components/section/CallToAction.vue";
+export { default as Footer } from "@/components/footer/Footer.vue";
+export { default as FooterLinks } from "@/components/footer/Links/FooterLinks.vue";
+export { default as FooterLinksIcons } from "@/components/footer/Links/FooterLinksIcons.vue";

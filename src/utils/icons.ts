@@ -5,3 +5,8 @@ export { default as ChevronRight } from "@/assets/icons/ChevronRight.vue";
 export { default as Envelope } from "@/assets/icons/Envelope.vue";
 export { default as Growth } from "@/assets/icons/Growth.vue";
 export { default as User } from "@/assets/icons/User.vue";
+export { default as Facebook } from "@/assets/icons/Facebook.vue";
+export { default as Twitter } from "@/assets/icons/Twitter.vue";
+export { default as Github } from "@/assets/icons/Github.vue";
+export { default as Linkedin } from "@/assets/icons/Linkedin.vue";
+export { default as Instagram } from "@/assets/icons/Instagram.vue";

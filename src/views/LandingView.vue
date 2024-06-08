@@ -6,6 +6,7 @@ import {
   Features2,
   Testimoni,
   CallToAction,
+  Footer,
 } from "@/utils/section";
 </script>
 
@@ -16,4 +17,5 @@ import {
   <Features2 />
   <Testimoni />
   <CallToAction />
+  <Footer />
 </template>
